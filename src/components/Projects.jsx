@@ -52,9 +52,9 @@ const Projects = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
             >
-              {/* Desktop View with Flip Animation */}
+              
               <div className="hidden lg:block">
-                {/* Front Side */}
+                
                 <div className="absolute inset-0 flex flex-col items-center justify-center bg-teal-600 text-white p-4 transition-transform duration-1000 transform group-hover:rotate-y-180 backface-hidden">
                   <h3 className="text-2xl font-semibold mb-2">
                     {project.title}
@@ -62,7 +62,7 @@ const Projects = () => {
                   <p className="text-sm">{project.description}</p>
                 </div>
 
-                {/* Back Side */}
+                
                 <div className="absolute inset-0 flex flex-col items-center justify-center bg-gray-200 text-gray-800 p-4 transition-transform duration-1000 transform rotate-y-180 backface-hidden group-hover:rotate-y-0">
                   <h3 className="text-xl font-semibold mb-2">
                     Technologies Used
@@ -89,7 +89,7 @@ const Projects = () => {
                 </div>
               </div>
 
-              {/* Static View for Mobile & Tablet */}
+             
               <div className="flex lg:hidden flex-col items-center justify-center bg-white text-gray-800 p-4">
                 <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
                 <p className="text-sm mb-2">{project.description}</p>

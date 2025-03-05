@@ -3,14 +3,13 @@ import myimg from "../assets/myimg.jpeg";
 import resume from "../assets/resume.pdf";
 import { FaGithub, FaLinkedin, FaHackerrank } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
-import interviewbitLogo from "../assets/interviewbitLogo.png"; // Custom InterviewBit logo
+import interviewbitLogo from "../assets/interviewbitLogo.png"; 
 
 const AboutMe = () => {
   return (
     <section id="about" className="py-16 bg-gray-900 text-white">
       <div className="container mx-auto flex flex-col md:flex-row items-center px-4">
         
-        {/* Image Section */}
         <div className="w-full md:w-1/2 flex justify-center mb-8 md:mb-0">
           <img
             src={myimg}
@@ -19,7 +18,6 @@ const AboutMe = () => {
           />
         </div>
 
-        {/* Description & Button */}
         <div className="w-full md:w-1/2 md:pl-8">
           <h2 className="text-4xl font-bold mb-4">About Me</h2>
           <p className="text-gray-300 mb-6">
@@ -37,7 +35,6 @@ const AboutMe = () => {
             grow as an individual.
           </p>
 
-          {/* Resume Button */}
           <a
             href={resume}
             target="_blank"
@@ -47,7 +44,6 @@ const AboutMe = () => {
             Download Resume
           </a>
 
-          {/* Social Media & Coding Profile Links */}
           <div className="flex gap-6 mt-6">
             <a
               href="https://github.com/Dineshanth123"
@@ -89,7 +85,6 @@ const AboutMe = () => {
               <SiLeetcode size={30} />
             </a>
 
-            {/* Custom InterviewBit Logo */}
             <a
               href="https://www.interviewbit.com/profile/dinesh-r_866/"
               target="_blank"

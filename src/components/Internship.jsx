@@ -22,7 +22,6 @@ const internshipData = {
   tools: ['React', 'Django', 'SQLite', 'Bootstrap', 'JWT'],
 };
 
-// Updated icon map with relevant icons
 const iconMap = {
   React: <FaReact />,
   'Django': <FaPython />,
@@ -90,7 +89,7 @@ const Internship = () => {
                     className="flex flex-col items-center p-4 bg-gray-700 rounded-lg shadow-md"
                   >
                     <div className="text-4xl text-teal-500 mb-2">
-                      {iconMap[tool] || <FaPython />} {/* Default to Python if icon not found */}
+                      {iconMap[tool] || <FaPython />} 
                     </div>
                     <p className="text-sm text-white">{tool}</p>
                   </div>

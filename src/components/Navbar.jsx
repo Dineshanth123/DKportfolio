@@ -11,14 +11,12 @@ const Navbar = () => {
       <div className="container mx-auto flex justify-between items-center p-4">
         <h1 className="text-2xl font-bold text-teal-500">My Portfolio</h1>
         
-        {/* Hamburger Menu for Small Screens */}
         <div className="md:hidden">
           <button onClick={toggleMenu} className="text-white focus:outline-none">
             {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
           </button>
         </div>
 
-        {/* Menu Links */}
         <div className={`md:flex md:items-center space-x-4 ${isOpen ? 'block' : 'hidden'} md:block`}>
           {[
             'About',
