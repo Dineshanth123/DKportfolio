@@ -20,7 +20,7 @@ const projectsData = [
   {
     title: "Power BI Dashboards",
     description:
-      "Created 5 analytical dashboards using Power BI, MS Excel, and PostgreSQL for data visualization.",
+      "Created 5 analytical dashboards using Power BI, MS Excel, and PostgreSQL.",
     technologies: ["Power BI", "Excel", "PostgreSQL"],
     githubLink:
       "https://www.linkedin.com/posts/dinesh-kanth-r-410693257_powerbi-dataanalytics-sql-activity-7301492826125611008-m4Wf?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD9IZ4wBXWfJdEDPEy9oSbKp_msbSBwjG-A",
@@ -31,6 +31,13 @@ const projectsData = [
       "Implemented numerical methods, machine learning tasks, and CPU scheduling algorithms as CLI tools.",
     technologies: ["Python"],
     githubLink: "https://github.com/Dineshanth123/numericalmethods",
+  },
+  {
+    title: "Web Pages Collection",
+    description:
+      "Developed seven professional and responsive webpages.",
+    technologies: ["HTML5","CSS3","Bootstrap"],
+    githubLink: "https://github.com/Dineshanth123/Web-Page/tree/master",
   },
 ];
 
