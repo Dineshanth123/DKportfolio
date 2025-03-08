@@ -8,14 +8,14 @@ const projectsData = [
     description:
       "A full-stack LMS with React, Django, and SQLite. Features JWT authentication and responsive Bootstrap design.",
     technologies: ["React", "Django", "SQLite", "JWT", "Bootstrap"],
-    githubLink: "https://github.com/Dineshanth123/LMS.git",
+    githubLink: "https://github.com/Dineshanth123/LMS/tree/master",
   },
   {
     title: "Milk Management System",
     description:
       "Web app to manage transactions between milk sellers and buyers using PostgreSQL for reliable data storage.",
     technologies: ["Django", "PostgreSQL"],
-    githubLink: "https://github.com/Dineshanth123/milkhouse.git",
+    githubLink: "https://github.com/Dineshanth123/milkhouse",
   },
   {
     title: "Power BI Dashboards",
@@ -30,7 +30,7 @@ const projectsData = [
     description:
       "Implemented numerical methods, machine learning tasks, and CPU scheduling algorithms as CLI tools.",
     technologies: ["Python"],
-    githubLink: "https://github.com/Dineshanth123/numericalmethods.git",
+    githubLink: "https://github.com/Dineshanth123/numericalmethods",
   },
 ];
 

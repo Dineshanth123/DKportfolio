@@ -5,7 +5,7 @@ const educationData = [
   {
     title: 'B.E. Computer Science and Engineering',
     institution: 'KPR Institute of Engineering and Technology, Coimbatore',
-    details: 'CGPA: 8.5 | Year: 2026',
+    details: 'CGPA: 8.56 | Year: 2026',
   },
   {
     title: 'Higher Secondary (HSC)',

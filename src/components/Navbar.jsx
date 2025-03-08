@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 w-full bg-gray-900 text-white z-50 shadow-lg">
       <div className="container mx-auto flex justify-between items-center p-4">
-        <h1 className="text-2xl font-bold text-teal-500">My Portfolio</h1>
+        <h1 className="text-2xl font-bold text-teal-500">DK Portfolio</h1>
         
         <div className="md:hidden">
           <button onClick={toggleMenu} className="text-white focus:outline-none">
