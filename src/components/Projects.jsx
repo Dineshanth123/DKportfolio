@@ -39,6 +39,14 @@ const projectsData = [
     technologies: ["HTML5","CSS3","Bootstrap"],
     githubLink: "https://github.com/Dineshanth123/Web-Page/tree/master",
   },
+  {
+    title: "DK Pharmaceuticals Management System",
+    description:
+      "Designed to streamline pharmaceutical inventory management.",
+    technologies: ["React","Express.js","Node.js","Tailwind CSS","MongoDB"],
+    githubLink: "https://github.com/Dineshanth123/DKPMS",
+  },
+
 ];
 
 const Projects = () => {
